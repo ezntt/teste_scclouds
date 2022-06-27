@@ -1,6 +1,6 @@
 # Copyright [2022] Eduardo Zanetta
 
-# A   função deve receber um numero N > 1 (validar o input), 
+# A função deve receber um numero N > 1 (validar o input), 
 # e retornar todos os números primos até o numero N. 
 # EX. p(2) = [2]; p(3) = [2, 3]; p(10) = [2, 3, 5, 7];
 
@@ -24,7 +24,7 @@ prime_nums = []  # declarando lista de números primos
 def is_prime(a, b):  # verifica se número é primo ou não
 						   # argumentos: a = a, b = b
 
-	if a == b:	# é igual e não foi divisível em nenhuma repetição?
+	if a == b:	# é igual (chegou a ser) e não foi divisível em nenhuma repetição?
 		return True
 
 	elif b % a == 0:  # é divisível?
@@ -45,19 +45,19 @@ print(f"p({n}) = {prime_nums}")  # output
 """
 para N = 10
 
-i = 3  | j = 2 | i % j = 1  -> return F
-i = 4  | j = 2 | i % j = 0
+i = 3  | j = 2 | i % j = 1
+i = 4  | j = 2 | i % j = 0  -> return False
 i = 5  | j = 2 | i % j = 1
 i = 5  | j = 3 | i % j = 2
 i = 5  | j = 4 | i % j = 1
-i = 6  | j = 2 | i % j = 0
+i = 6  | j = 2 | i % j = 0  -> return False
 i = 7  | j = 2 | i % j = 1
 i = 7  | j = 3 | i % j = 1
 i = 7  | j = 4 | i % j = 3
 i = 7  | j = 5 | i % j = 2
 i = 7  | j = 6 | i % j = 1
-i = 8  | j = 2 | i % j = 0
+i = 8  | j = 2 | i % j = 0  -> return False
 i = 9  | j = 2 | i % j = 1
-i = 9  | j = 3 | i % j = 0
-i = 10 | j = 2 | i % j = 0
+i = 9  | j = 3 | i % j = 0  -> return False
+i = 10 | j = 2 | i % j = 0  -> return False
 """

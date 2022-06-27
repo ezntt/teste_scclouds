@@ -1,3 +1,5 @@
+# Copyright [2022] Eduardo Zanetta
+
 # A   função deve receber um numero N > 1 (validar o input), 
 # e retornar todos os números primos até o numero N. 
 # EX. p(2) = [2]; p(3) = [2, 3]; p(10) = [2, 3, 5, 7];

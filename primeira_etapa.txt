@@ -1,22 +1,23 @@
 1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento nestas camadas.
 
 	R: A camada 2 (de ligação) controla o fluxo de dados (subcamada LLC) e os verifica para identificar possíveis erros.
-		E para a conexão de diversos dispositivos, é usado a subcamada MAC, em que cada um possui seu endereço próprio.
-		A camada 3 (de rede) é responsável pela identificação de origem e destino dos dados já tratados pela camada 2, priorizando enviar aqueles mais 
-		"importantes", escalonando-os.
-		Aqui temos também o famoso IP, uma espécie de "CPF" do dispositivo de origem e o de destino, protocolos IP e ICMP.
+	   E para a conexão de diversos dispositivos, é usado a subcamada MAC, em que cada um possui seu endereço próprio.
+	   A camada 3 (de rede) é responsável pela identificação de origem e destino dos dados já tratados pela camada 2, priorizando enviar aqueles mais 
+	   "importantes", escalonando-os.
+	   Aqui temos também o famoso IP, uma espécie de "CPF" do dispositivo de origem e o de destino, protocolos IP e ICMP.
 
  
-2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção 
-de uma solução OpenSource como o sistema operacional Ubuntu?
-Quais seriam os pontos negativos e positivos de cada abordagem?
+2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção
+    de uma solução OpenSource como o sistema operacional Ubuntu?
+    Quais seriam os pontos negativos e positivos de cada abordagem?
 
 	R: O fato de o Linux (Ubuntu, no caso) ser OpenSource, faz com que tenha uma comunidade amigável e apoiadora, com suporte e manutenções frequentes.
+	
 		Ao meu ver, as vantagens de usar um Linux são:
 		- maior conhecimento da própria máquina para os interessados;
 		- maior controle sobre a própria máquina;
 		- Linux está em tudo atualmente, entender seu funcionamento e sua importância é essencial;
-		- maior privacidade e segurança (downloads por gerenciador de pacotes verificados);
+		- maior privacidade e segurança (downloads por gerenciador de pacotes verificados).
 
 		e as suas desvantagens comparado ao Windows são:
 		- poucos usuários em comparação ao Windows, pois este já está muito difundido no mercado (já vem junto com os computadores);
@@ -24,12 +25,12 @@ Quais seriam os pontos negativos e positivos de cada abordagem?
 		  amigável com relação ao usuário;
 		- devido a ser pouco difundido em comparação ao Windows, muitos programas não são compatíveis com Linux, e quem acaba precisando de tais 
 		  programas não conseguem se manter apenas no Linux (no meu caso, tenho programas exclusivos para Windows que não posso abandonar (Traktor, FL 
-		  Studio);
+		  Studio).
 
 
 3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
 
 	R: OpenSource (código-aberto) é um projeto onde o código da aplicação (jogo, kernel...) é distribuído livremente para manutenção e estudos.
-		Empresas podem adotar essa tecnologia de forma que seu uso não seja apenas restrito à empresa, liberando possíveis visões de diferentes pessoas.
-		O projeto OpenSource é útil pois reduz custos ao mesmo passo que melhora o desempenho, onde atualizações podem ser feitas mais frequentemente, 
-		mantendo o suporte em um nível maior sdo que aqueles que não adotam o projeto.
+	   Empresas podem adotar essa tecnologia de forma que seu uso não seja apenas restrito à empresa, liberando possíveis visões de diferentes pessoas.
+	   O projeto OpenSource é útil pois reduz custos ao mesmo passo que melhora o desempenho, onde atualizações podem ser feitas mais frequentemente, 
+	   mantendo o suporte em um nível maior sdo que aqueles que não adotam o projeto.
